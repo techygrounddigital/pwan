@@ -45,18 +45,8 @@
     }
 }
 
-@media screen and (max-width: 767px){
-         .hero .content-wrapper{
-        p{
-            font-size: 16px;
-        } 
-        h2{
-            font-size: 32px;
-        }
-    }
-}
-}
-        
+
+
       #allNames {
         width: 100%;
         display: none;
@@ -146,19 +136,19 @@
       .name-row {
         padding: 6px;
         text-align: center;
-        font-size: 80px;
+        font-size: 72px;
         display: flex;
         justify-content: center;
       align-items: center;
       .name{
         font-weight: 500;
-         letter-spacing: .24em;
+        text-transform: uppercase;
       }
     &:nth-child(odd) {
-        background: #CCDAC3;
+        background: #b8bacd;
         color: black;
     }&:nth-child(even) {
-        background: #285011;
+        background: #262C6F;
         color: white;
     }
 }
@@ -194,6 +184,37 @@
         font-size: 24px;
         font-weight: 500;
     }
+
+
+@media screen and (max-width: 767px){
+    .name-row {
+        font-size: 8.5vw;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+         .hero .content-wrapper{
+        p{
+            font-size: 16px;
+        } 
+        h2{
+            font-size: 32px;
+        }
+    }
+.numberInput .inner{
+    flex-direction: column !important;
+    align-content: center;
+    .col50{
+        width: 90%;
+        margin: auto;  
+            input, select{
+            width: 90%;
+        }
+        
+    }
+} 
+}
+
 
 
     @keyframes spin {
