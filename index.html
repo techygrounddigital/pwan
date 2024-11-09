@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PWAN Max Real Estate Riches Event Raffle Draw</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Participate in the exclusive PWAN Max Real Estate Riches Raffle Draw for a chnace to win amzing prices, incluyding home appliances and food items! Attendees of the Real Estate Riches event on November 9, 2024, in Akure are eligible. Special raffle category include: Early Bird Draw for the first 100 attendees, a draw for those wgo bring 10+ guests, and a general draw for all attendees. Join us for opportunities to win while exploring income possibilities in real estate!"/>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class = "hero">
+    <div class="logos">
+      <img src = "img/logo.png" alt="lafftacy" width="200px">
+    </div>
+    <div class='content-wrapper'>
+      <h2>PWAN EVENT RAFFLE DRAW LIVE!</h2>
+      <p>The Moment of Truth! Who Will Take Home the Prizes?</p>
+    </div>
+  </div>
+  <div class = "numberInput">
+    <div class = "inner">
+      <div class ="col50">
+    <input type="text" name="numer" placeholder="Enter number of lucky winners...">
+  </div>
+  <div class="col50">
+    <select name="drawType"id="drawType">
+      <option disabled selected val="">Select Draw Type</option>
+      <option value="1">First 100 People</option>
+      <option value="2">Invited up to 10 people</option> 
+      <option value="3">General</option>
+    </select>
+  </div>
+      <button class="draw">ROLL!!!</button>
+  </div>
+  </div>
+  
+  <div id="display">
+    <img src="img/cancel.svg" class='closeDisplay'>
+    <div class ="inner">
+    <div id="loader"> 
+      <img src = "img/loading.gif" width="300">
+    </div>
+    <div id="allNames">
+    </div>
+  </div>
+  <div class="spacer"></div>
+  </div>
+<footer> 
+<div id="errorMessage"> 
+      <h2> Failed to get data. Please refresh </h2>
+    </div>
+    <h3> Number of Registered Member: <span class = "number"></span></h3>
+
+    <p class="copyright">DESIGNED BY TECHYGROUND DIGITAL SOLUTIONS | +2348161822695</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
